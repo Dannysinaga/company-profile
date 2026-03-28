@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import useCompanyStore from '../store/companyStore';
 
 const ServicesPage: React.FC = () => {
   const { services, testimonials } = useCompanyStore();
-  const [selectedService, setSelectedService] = useState<number | null>(null);
+
 
   // Data harga layanan
   const pricingData = {
