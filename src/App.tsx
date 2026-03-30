@@ -9,6 +9,7 @@ import RegisterPage from './components/RegisterPage';
 import useCompanyStore from './store/companyStore';
 import BlogList from './components/BLogList';
 import TeamsPage from './components/TeamPages';
+import BlogDetail from './components/BlogDetail';
 
 function App() {
   const { companyInfo } = useCompanyStore();
@@ -25,7 +26,8 @@ function App() {
           <Route path="/blog" element={<BlogList />} />
           <Route path="/create-blog" element={<CreateBlog />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/register" element={<RegisterPage />} />  {/* <-- TAMBAHKAN INI */}
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/blog/:slug" element={<BlogDetail />} />
         </Routes>
         <footer className="bg-gray-800 text-white text-center py-6">
           <p className="text-sm">

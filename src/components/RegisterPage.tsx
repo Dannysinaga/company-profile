@@ -252,7 +252,7 @@ const RegisterPage: React.FC = () => {
         {/* Footer */}
         <div className="px-8 py-4 bg-gray-50 border-t border-gray-100">
           <p className="text-xs text-center text-gray-400">
-            © 2024 Inovasi Teknologi Nusantara. All rights reserved.
+            © 2026 Inovasi Teknologi Nusantara. All rights reserved.
           </p>
         </div>
       </div>
