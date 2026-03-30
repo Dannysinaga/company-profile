@@ -175,7 +175,7 @@ const CreateBlog: React.FC = () => {
               className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition ${
                 errors.title ? 'border-red-500' : 'border-gray-300'
               }`}
-              placeholder="Contoh: 5 Tren Teknologi 2024"
+              placeholder="Contoh: 5 Tren Teknologi 2026"
             />
             {errors.title && (
               <p className="mt-1 text-sm text-red-500">{errors.title}</p>
